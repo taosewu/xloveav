@@ -128,7 +128,7 @@ window.onload = function () {
     var newFavoritesElem =  createFieldElem({title: '<font color=red><b>Ctrl+D</b></font> 收藏此页，永不迷路', items: ""});
     mainElem.appendChild(newFavoritesElem);
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用 https:// 协议访问淘色坞'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用 https:// 协议访问'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
@@ -146,4 +146,5 @@ window.onload = function () {
     // Description
     var noticeFieldElem = createFieldElem({title: '注意事项', items: notices, plainText: true, classStr: 'desc'});
     mainElem.appendChild(noticeFieldElem);
+
 }
